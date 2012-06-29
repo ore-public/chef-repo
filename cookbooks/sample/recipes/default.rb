@@ -8,6 +8,8 @@
 #
 template "/tmp/sl001.txt" do
   source "sl001.txt.erb"
+  owner "masaya"
+  group "masaya"
   mode 0644
 end
 
